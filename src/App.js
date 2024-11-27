@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import KanbanBoard from './components/KanbanBoard/KanbanBoard';
 import Header from './components/Header/Header';

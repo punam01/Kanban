@@ -13,11 +13,7 @@ const KanbanColumn = ({ title, tickets, users }) => {
   };
 
   const randomColor = generateRandomColor();
-  const isUserOnline = (userId) => {
-    // Replace with actual API call or user data
-    const user = users.find((u) => u.id === userId);
-    return (user?.available === true) ? "green" : "grey";
-  };
+  
   return (
     <div className="kanban-column-component">
       <div className="kanban-column-component-header">
