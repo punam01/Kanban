@@ -1,0 +1,35 @@
+.kanban-column-component{
+    min-width:350px;
+    margin: 15px;
+    padding: 0;
+}
+.kanban-column-component-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+.kanban-column-component-header-left{
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+}
+.kanban-column-component-header-left .length,
+.kanban-column-component-header-left .title{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.kanban-column-component-header-left .length{
+    color: #5c5b5b;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.kanban-column-component-header-right{
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+}
+.kanban-column-component-header-right .add{
+    margin-right: 10px;
+}
+

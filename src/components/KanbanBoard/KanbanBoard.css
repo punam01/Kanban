@@ -1,0 +1,10 @@
+.kanban-board-component{
+    padding: 15px 30px;
+}
+.kanban-board-columns{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
